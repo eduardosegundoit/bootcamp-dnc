@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+#nav-sup {
+    height: 100px;
+    width: auto;
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #bababa;
+}
+
+    #nav-sup button {
+        margin-right: 5%;
+        background: #0C70F2;
+        box-shadow: 3px 2px 4px rgb(12, 112, 242, 0.25);
+        border: none;
+        width: 80px;
+        height: 40px;
+        color: white;
+        cursor: pointer;
+        font-weight: 600;
+    }
+
+    #nav-sup button:hover {
+        transform: translateY(-2px);
+    }
+
+    #menu {
+        display: flex;
+        width: 100%;
+    }
+
+    #menu a {
+        font-size: 25px;
+        font-weight: 600;
+        text-decoration: none;
+        color: white;
+        margin-left: 2%;
+    }
+
+    #menu a:hover {
+        color: #cecece;
+        transform: translateY(-3px);
+    }
