@@ -26,6 +26,7 @@ body {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #bababa;
+
 }
 
     #nav-sup button {
@@ -142,3 +143,143 @@ body {
         color: var(--preto-dnc);
     }
 
+    footer {
+        width: 100%;
+        background: var(--azul-dnc);
+    }
+
+    #links-footer {
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+    }
+
+    footer ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    footer nav {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 330px;
+    }
+
+    footer ul li {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    footer nav h3 {
+        background: black;
+        border-radius: 10px;
+        padding: 5px;
+        font-size: 25px;
+        font-weight: 800; 
+        margin-bottom: 30px;       
+    }
+
+    footer ul li a {
+        text-decoration: none;
+        color: var(--branco-font);
+    }
+
+    footer ul li a:hover {
+        color: var(--cinza-hover);
+    }
+
+    #endereco {
+        width: 450px;
+        font-weight: 800;
+        font-size: 18px;
+    }
+
+    #termo {
+        display: flex;
+        justify-content: center;
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 600;
+
+    }
+
+    @media only screen and (max-width: 600px) {
+        #nav-sup {
+            flex-direction: column;
+            justify-content: center;
+            height: auto;
+        }
+
+        #menu {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #nav-sup button {
+            margin: 10px 0px 10px 0px;
+        }
+
+        #menu a {
+            margin-left: 0;
+        }
+
+        header h1 {
+            font-size: 38px;
+        }
+
+        header h2 {
+            font-size: 28px;
+            padding: 10px;
+        }
+
+        .input-main {
+           width: 93%;
+           font-size: 15px;
+        }
+
+        label {
+            font-size: 15px;
+        }
+        form {
+            padding: 10px;
+        }
+
+        form button {
+            width: 93%;
+        }
+
+        #interesse {
+            font-size: 15px;
+        }
+
+        .checkbox-main {
+            margin-left: 5px;
+            margin-right: 10px;
+            transform: scale(1.3);
+        }
+
+        #links-footer {
+            flex-direction: column;
+        }
+
+        #endereco {
+            font-size: 15px;
+            width: auto;
+            padding: 10px;
+        }
+
+        #termo {
+            align-items: center;
+            width: 95%;
+            font-size: 20px;
+        }
+
+
+
+
+
+    }
